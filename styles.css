@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.flower-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.flower {
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    position: absolute;
+    transition: transform 0.3s ease;
+}
